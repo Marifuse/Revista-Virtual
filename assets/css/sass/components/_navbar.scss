@@ -1,0 +1,22 @@
+// Barra de navegación
+.nav {
+    display: inline-block;
+    width: 840px;
+    text-align: right;
+}
+.nav__components {
+    width: 960px;
+    padding: 10px;
+    border-bottom: 1px solid gray
+}
+
+.navbar__logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
