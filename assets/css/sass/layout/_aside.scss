@@ -10,10 +10,17 @@
 }
 
 .outstanding__news {
-    margin-bottom: 50px;
+    margin-bottom: 5em;
 }
 
 .outstanding__news img {
     width: 13.75rem;
     height: 10.5rem;
+}
+
+// Media Querys para desaparecer el menú lateral
+@media only screen and (max-width: 500px) {
+  .side__news {
+      display: none;
+  }
 }
