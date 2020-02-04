@@ -17,3 +17,15 @@
     width: 220px;
     height: 200px;
 }
+
+.side__list {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  list-style: none;
+}
+.side__items {
+ background-color: royalblue;
+ padding: 0.5em;
+ border-radius: 1em;
+}

@@ -38,6 +38,7 @@ body {
   width: 960px;
   padding: 10px;
   border-bottom: 1px solid gray;
+  display: inline-flex;
 }
 
 .navbar__logo {
@@ -47,13 +48,24 @@ body {
   display: inline-block;
 }
 
-.nav ul li a {
+.nav .nav__item {
   text-decoration: none;
   text-transform: uppercase;
+  list-style: none;
+  display: flex;
 }
 
 .nav__items .input-menu {
   border-radius: 30px;
+}
+
+.letters__group button {
+  background-color: coral;
+  color: white;
+  padding: 0.5em;
+  border-radius: 1em;
+  border: none;
+  margin-left: 1em;
 }
 
 .tags {
@@ -131,6 +143,19 @@ body {
 .outstanding__news img {
   width: 220px;
   height: 200px;
+}
+
+.side__list {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  list-style: none;
+}
+
+.side__items {
+  background-color: royalblue;
+  padding: 0.5em;
+  border-radius: 1em;
 }
 
 .row {

@@ -1,22 +1,27 @@
 // Barra de navegación
 .nav {
     display: inline-block;
-    width: 840px;
+    // width: 840px;
     text-align: right;
 }
 .nav__components {
-    width: 960px;
-    padding: 10px;
-    border-bottom: 1px solid gray
+    width: 74em;
+    padding: 1em;
+    border-bottom: 1px solid gray;
+    display: inline-flex;
 }
 
 .navbar__logo {
-    font-size: 24px;
+    font-size: 1em;
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
 }
-.nav ul li a {
+
+.nav__item {
     text-decoration: none;
     text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    margin: 1.5em;
 }
