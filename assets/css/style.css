@@ -30,33 +30,42 @@ body {
 
 .nav {
   display: inline-block;
-  width: 840px;
   text-align: right;
 }
 
 .nav__components {
-  width: 960px;
-  padding: 10px;
+  width: 74em;
+  padding: 1em;
   border-bottom: 1px solid gray;
   display: inline-flex;
 }
 
+.nav__menu {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .navbar__logo {
-  font-size: 24px;
+  font-size: 3em;
   font-weight: bold;
   text-transform: uppercase;
   display: inline-block;
 }
 
-.nav .nav__item {
-  text-decoration: none;
+.nav__item {
+  width: 44%;
   text-transform: uppercase;
   list-style: none;
   display: flex;
+  justify-content: space-between;
+}
+.nav__item li a {
+  text-decoration: none;
 }
 
 .nav__items .input-menu {
-  border-radius: 30px;
+  border-radius: 1rem;
 }
 
 .letters__group button {
@@ -68,71 +77,75 @@ body {
   margin-left: 1em;
 }
 
-.tags {
+.side__tags {
   border-bottom: 1px solid gray;
 }
-
-.tags ul {
+.side__tags ul {
   padding: 0;
   list-style: none;
-}
-
-.tags ul li {
-  padding: 2px 4px;
-  background-color: steelblue;
-  margin-right: 1px;
+  display: flex;
+  justify-content: flex-end;
   color: white;
+}
+.side__tags li {
+  background-color: steelblue;
+  padding: 0.5em;
+  border-radius: 1em;
+  margin-left: 0.5em;
 }
 
 .header__container {
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .news__section {
-  width: 700px;
+  width: 75%;
+  height: 65vh;
   float: left;
 }
 
 .news {
-  width: 210px;
+  width: 30%;
   display: inline-block;
-  margin: 5px;
+  margin: 0.5em;
   cursor: pointer;
 }
 
 .news__body img {
-  width: 210px;
-  height: 300px;
+  width: 100%;
 }
 
 .news__body p {
-  padding: 5px 10px;
+  padding: 1em;
 }
 
 .footer__container {
-  width: 960px;
+  width: 60rem;
   margin: 0 auto;
   text-align: center;
 }
 
 .news__letters {
+  width: 100%;
+  background-color: #f2f4f5;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  clear: both;
 }
 
 .news__letters h2 {
-  font-size: 24px;
+  font-size: 2em;
 }
 
 .side__news {
-  width: 220px;
+  width: 23%;
   float: right;
 }
 
 .side__head {
-  width: 220px;
+  width: 100%;
   border-bottom: 1px solid gray;
 }
 
@@ -141,21 +154,8 @@ body {
 }
 
 .outstanding__news img {
-  width: 220px;
-  height: 200px;
-}
-
-.side__list {
-  display: flex;
-  justify-content: space-around;
-  color: white;
-  list-style: none;
-}
-
-.side__items {
-  background-color: royalblue;
-  padding: 0.5em;
-  border-radius: 1em;
+  width: 13.75rem;
+  height: 10.5rem;
 }
 
 .row {

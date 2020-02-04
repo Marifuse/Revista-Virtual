@@ -1,15 +1,16 @@
-.tags {
+.side__tags {
     border-bottom: 1px solid gray;
-}
-
-.tags ul {
-    padding: 0;
-    list-style: none;
-}
-
-.tags ul li {
-    padding: 2px 4px;
-    background-color: steelblue;
-    margin-right: 1px;
-    color: white;
+    ul {
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      color: white;
+    }
+    li {
+      background-color: steelblue;
+      padding: 0.5em;
+      border-radius: 1em;
+      margin-left: 0.5em;
+    }
 }

@@ -1,12 +1,13 @@
 // Sección nuevas noticias
 .news__letters {
-    // width: 960px;
-    // background-color: #f2f4f5;
+    width: 100%;
+    background-color: #f2f4f5;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    clear: both;
 }
 
 .news__letters h2 {
-    font-size: 24px
+    font-size: 2em;
 }

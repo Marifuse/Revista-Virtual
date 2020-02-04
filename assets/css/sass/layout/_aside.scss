@@ -1,11 +1,11 @@
 // Menú lateral
 .side__news {
-    width: 220px;
+    width: 23%;
     float: right;
 }
 
 .side__head {
-    width: 220px;
+    width: 100%;
     border-bottom: 1px solid gray;
 }
 
@@ -14,18 +14,6 @@
 }
 
 .outstanding__news img {
-    width: 220px;
-    height: 200px;
-}
-
-.side__list {
-  display: flex;
-  justify-content: space-around;
-  color: white;
-  list-style: none;
-}
-.side__items {
- background-color: royalblue;
- padding: 0.5em;
- border-radius: 1em;
+    width: 13.75rem;
+    height: 10.5rem;
 }

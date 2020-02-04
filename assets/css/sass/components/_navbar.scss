@@ -1,7 +1,6 @@
 // Barra de navegación
 .nav {
     display: inline-block;
-    // width: 840px;
     text-align: right;
 }
 .nav__components {
@@ -11,17 +10,28 @@
     display: inline-flex;
 }
 
+.nav__menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .navbar__logo {
-    font-size: 1em;
+    font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
 }
 
 .nav__item {
-    text-decoration: none;
+    width: 44%;
     text-transform: uppercase;
     list-style: none;
     display: flex;
-    margin: 1.5em;
+    justify-content: space-between;
+    li {
+      a {
+        text-decoration: none;
+      }
+    }
 }
