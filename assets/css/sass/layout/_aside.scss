@@ -1,6 +1,6 @@
 // Menú lateral
 .side__news {
-    width: 23%;
+    width: 20%;
     float: right;
 }
 
@@ -14,12 +14,11 @@
 }
 
 .outstanding__news img {
-    width: 13.75rem;
-    height: 10.5rem;
+    width: 100%;
 }
 
 // Media Querys para desaparecer el menú lateral
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 576px) {
   .side__news {
       display: none;
   }

@@ -1,10 +1,11 @@
 // Barra de navegación
 .nav {
+    width: 100%;
     display: inline-block;
     text-align: right;
 }
 .nav__components {
-    width: 74em;
+    width: 100%;
     padding: 1em;
     border-bottom: 1px solid gray;
     display: inline-flex;
@@ -24,7 +25,7 @@
 }
 
 .nav__item {
-    width: 44%;
+    width: 28%;
     text-transform: uppercase;
     list-style: none;
     display: flex;
@@ -34,4 +35,27 @@
         text-decoration: none;
       }
     }
+}
+
+// Media Querys para adaptar nav para movil
+// @media only screen and (max-width: 900px) {
+//   .nav__components {
+//     padding: 0.5em;
+//   }
+//   .navbar__logo {
+//     font-size: 2em;
+//   }
+//   // .nav__item {
+//   //   li:first-child {
+//   //     display: none !im;
+//   //   }
+//   }
+// }
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .nav__item {
+      width: 45%;
+      li:first-child {
+        display: none;
+      }
+  }
 }

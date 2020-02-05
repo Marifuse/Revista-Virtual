@@ -5,8 +5,8 @@
 }
 
 .news__section {
-    width: 75%;
-    height: 381vh;
+    width: 80%;
+    height: auto;
     float: left;
 }
 
@@ -23,4 +23,11 @@
 
 .news__body p {
     margin-top: 2em;
+}
+
+// Media Querys para versión movil
+@media only screen and (max-width: 992px) {
+  .news__section {
+    display: grid;
+  }
 }

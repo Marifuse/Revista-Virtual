@@ -11,6 +11,15 @@
       background-color: steelblue;
       padding: 0.5em;
       border-radius: 1em;
-      margin-left: 0.5em;
+      margin-left: 0.2em;
     }
+}
+
+//Media Querys para tags
+@media only screen and (max-width: 1200px) {
+  .side__tags {
+      ul {
+        justify-content: center;
+      }
+  }
 }
