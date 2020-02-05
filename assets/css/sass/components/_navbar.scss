@@ -1,7 +1,8 @@
 // Barra de navegación
 .nav {
     width: 100%;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     text-align: right;
 }
 .nav__components {
@@ -12,24 +13,25 @@
 }
 
 .nav__menu {
-    width: 100%;
+    // width: 100%;
     display: flex;
-    justify-content: flex-end;
+
 }
 
 .navbar__logo {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
 }
 
 .nav__item {
-    width: 28%;
+    // width: 28%;
     text-transform: uppercase;
     list-style: none;
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
+    text-align: right;
     li {
       a {
         text-decoration: none;
@@ -51,9 +53,9 @@
 //   //   }
 //   }
 // }
-@media only screen and (min-width: 576px) and (max-width: 992px) {
+@media only screen and (max-width: 576px) {
   .nav__item {
-      width: 45%;
+      // width: 45%;
       li:first-child {
         display: none;
       }
