@@ -103,7 +103,11 @@ body {
 }
 
 .news__section {
+<<<<<<< HEAD
   width: 80%;
+=======
+  width: 75%;
+>>>>>>> 48f077e20b199d47a7c2358a081e0e855fb441a7
   height: auto;
   float: left;
 }
