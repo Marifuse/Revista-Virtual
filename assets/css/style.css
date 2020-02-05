@@ -90,7 +90,7 @@ body {
 
 .news__section {
   width: 75%;
-  height: 381vh;
+  height: auto;
   float: left;
 }
 
