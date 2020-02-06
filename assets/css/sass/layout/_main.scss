@@ -1,24 +1,11 @@
 // Contenido con imagenes
-// .header__container {
-//     width: 100%;
-//     margin: 0 auto;
-// }
-//
-// .news__section {
-//     width: 80%;
-//     height: auto;
-//     float: left;
-// }
-
 .news {
-    // width: 30%;
-    // display: inline-block;
     margin: 0.5em;
     cursor: pointer;
 }
 
-.news__body img {
-    // width: 100%;
+.news__img {
+    width: 100%;
 }
 
 .news__body p {
